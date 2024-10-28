@@ -1,0 +1,119 @@
+@media( min-width:1031px ){
+    .image-offer-1,.image-offer-2{
+        height: 900px; 
+     }
+
+}
+
+@media (max-width:1030px){
+/* home css */
+.home .home-banner-1,
+.home .home-banner-2{
+
+    background-position: 65% center;
+    min-height: 550px;    
+}
+
+.home .home-banner-text{
+
+    transform:translate(-80%,-90%);
+}
+/* offer css */
+.image-offer-1,.image-offer-2{
+    height: 700px; 
+ }
+ .offers .offer-box .offer-info .heading-bigger{
+    font-size:3rem
+ }
+/* special css */
+.special .countdown-container{
+    padding-top:3rem;
+}
+
+
+
+}
+@media(max-width:991px){
+    .home .home-banner-text{
+
+        transform:translate(-66%,-50%);
+    }
+    /* offer css */
+.image-offer-1,.image-offer-2{
+    height:800px; 
+ }
+ .special .countdown-container{
+    padding-top:2rem;
+ }
+ /* testimonials css */
+ .testimonial .carousel-control-prev{
+    left:0rem
+}
+.testimonial .carousel-control-next{
+    right:0rem
+}
+}
+@media(max-width:767px){
+    .home .home-banner-1,
+.home .home-banner-2{
+
+    background-position: 50% center;
+    min-height: 450px;
+    }
+    .home .home-banner-text{
+
+        transform:translate(-70%,-80%);
+    }
+    .home .home-banner-text h1{
+        font-size:3rem;
+    }
+    .home .home-banner-text h2{
+        font-size:1.2rem;
+    }
+    .home .home-banner-text .btn-danger{
+        padding:0.8rem 1.2rem;
+    }
+    .home .slider-icon{
+        font-size:1.5rem;
+    }
+    /* offer css */
+    .image-offer-1,.image-offer-2{
+        height:550px; 
+     }
+     /* products css */
+     .products .offer-content h2{
+        font-size: 0.8rem;
+     }
+     /* special css */
+     .special{
+        padding:4rem 0;
+     }
+     .special .countdown-container .countdown-counter li{
+        width: 20%;
+        padding:1rem;
+        
+     }
+     /* testimonial css */
+     .testimonial .testimonial-wrapper{
+        padding: 1rem;
+     }
+   
+}
+@media (max-width:580px){
+    .image-offer-1,.image-offer-2{
+        height:700px; 
+     }
+    /* testimonial css */
+     .testimonial .testimonial-wrapper{
+        padding: 1rem;
+     }
+
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-next{
+       display: none;
+    }
+}
+
+@media(max-width:330px){
+   
+}
